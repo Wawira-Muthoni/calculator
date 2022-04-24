@@ -9,10 +9,10 @@ print("1. Addition")
 print("2.Subtraction")
 print("3. Multiplication")
 print("4.Division")
-
+21
 choice =input("enter your choice : ")
 num1 =float(input ("Enter Number 1: "))
-num2 =input(float("Enter Number 2: "))
+num2 =float(input("Enter Number 2: "))
 
 if choice =="1":
    print(num1, "+" ,num2, "=" ,(num1+num2))
@@ -27,4 +27,4 @@ elif choice =="4":
      print(num1,"/", num2,"=",(num1/num2))
 
 else:
-    print("invalid choice")    
+    print("sum")    
